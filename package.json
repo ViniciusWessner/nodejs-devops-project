@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-devops-project",
+  "version": "1.0.0",
+  "description": "Projeto Node.js com CI/CD",
+  "main": "src/app/index.js",
+  "scripts": {
+    "start": "node src/app/index.js",
+    "test": "mocha tests/test_app.js",
+    "build": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  }
+}
